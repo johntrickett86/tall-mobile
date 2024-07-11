@@ -1,7 +1,7 @@
 # Laravel TALL Preset with Mobile Elements
 
-[![CI Status](https://github.com/laravel-frontend-presets/tall/actions/workflows/tests.yml/badge.svg)](https://github.com/laravel-frontend-presets/tall/actions)
-[![Total Downloads](https://poser.pugx.org/laravel-frontend-presets/tall/d/total.svg)](https://packagist.org/packages/laravel-frontend-presets/tall)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/johntrickett86/tall-mobile.svg?style=flat-square)](https://packagist.org/packages/stitch-digital/laravel-simpro-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/johntrickett86/tall-mobile.svg?style=flat-square)](https://packagist.org/packages/johntrickett86/tall-mobile)
 
 The TALL stack preset you know and love - with a few extra mobile elements.
 
