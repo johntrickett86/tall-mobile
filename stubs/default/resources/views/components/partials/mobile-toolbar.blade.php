@@ -2,7 +2,7 @@
     'scrollHide' => true, // enables or disables hide on scroll
     'fab' => true, // enables or disables Floating Action Button
     'fabType' => 'modal', // can be 'modal' or 'link'
-    'fabIcon' => 'plus', // favicon name
+    'fabIcon' => 'plus', // fab icon name
     'href' => '#', // only used if type is link
     'modalName' => 'fab-modal' // specify the modal component name
     ])
