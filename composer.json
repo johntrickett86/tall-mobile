@@ -1,0 +1,66 @@
+{
+    "name": "johntrickett86/tall-mobile",
+    "description": "TALL preset for Laravel with mobile UI components",
+    "keywords": [
+        "alpine",
+        "alpinejs",
+        "tailwind",
+        "tailwindcss",
+        "tailwindui",
+        "tall",
+        "laravel",
+        "livewire",
+        "preset"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/johntrickett86/tall-mobile/issues",
+        "source": "https://github.com/johntrickett86/tall-mobile"
+    },
+    "authors": [
+        {
+            "name": "Dan Harrin",
+            "email": "Dan@DanHarrin.com"
+        },
+        {
+            "name": "Liam Hammett",
+            "email": "liam@liamhammett.com"
+        },
+        {
+            "name": "Ryan Chandler",
+            "email": "support@ryangjchandler.co.uk"
+        },
+        {
+            "name": "John Trickett",
+            "email": "john@stitch-digital.co"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/ui": "^4.5",
+        "illuminate/support": "^11.0",
+        "ryangjchandler/blade-tabler-icons": "^2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelFrontendPresets\\Tall\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelFrontendPresets\\Tall\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelFrontendPresets\\Tall\\TallServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
