@@ -41,8 +41,8 @@
             <x-tabler-search class="w-6 h-6" style="stroke-width: 1" />
         </a>
         <div class="relative flex items-center">
-            <button @click="dropdownOpen = !dropdownOpen; if(dropdownOpen) adjustDropdownPosition()" x-ref="button" class="inline-flex items-center p-2 text-sm font-medium text-center text-light-900 bg-white rounded-lg hover:bg-light-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-light-50 dark:bg-light-800 dark:hover:bg-light-700 dark:focus:ring-light-600">
-                <x-tabler-dots-vertical class="w-6 h-6" style="stroke-width: 1" />
+            <button @click="dropdownOpen = !dropdownOpen; if(dropdownOpen) adjustDropdownPosition()" x-ref="button" class="inline-flex items-center p-2 text-sm font-medium text-center text-light-900 rounded-lg hover:bg-light-100 focus:ring-4 focus:outline-none dark:text-white focus:ring-light-50 dark:hover:bg-light-700 dark:focus:ring-light-600">
+                <x-tabler-dots-vertical class="w-6 h-6" />
             </button>
             <div x-show="dropdownOpen"
                  x-transition:enter="transition ease-out duration-200"
