@@ -41,8 +41,9 @@ npm run dev
 If you would like to install the preset and its auth scaffolding in a fresh Laravel application, make sure to use the `--auth` flag on the `ui` command:
 
 ```bash
-composer require livewire/livewire laravel-frontend-presets/tall
+composer require livewire/livewire johntrickett86/tall-mobile
 php artisan ui tall --auth
+php artisan migrate
 npm install
 npm run dev
 ```
@@ -194,7 +195,9 @@ We have also included a skeleton settings page.
 
 If a user is logged in, the user's name and avatar will be displayed in the header. If no user is logged in, a default avatar will be shown.
 
-We have added a migration to include 'avatar_url' to the users table. To use this, remember to update your user model to make this field fillable!
+We have added a migration to include 'avatar_url' to the users table.
+
+> **Remember**: To use the avatar_url, update your user model to make this field fillable!
 
 ### Theme Selector
 
@@ -206,7 +209,7 @@ Switches the theme between System, Light and Dark.
 
 The theme is customisable by updating the `tailwind.config.js` file. We have based the colors on named colors which can be easily updated:
 
-```js
+```
 theme: {
     extend: {
         colors: {
@@ -231,6 +234,6 @@ Replacing the primary or light color will reflect in the current Tailwind styles
 - [John Trickett](https://github.com/johntrickett86)
 - [Dan Harrin](https://github.com/DanHarrin) for the TALL stack preset package this is based on
 - [Liam Hammett](https://github.com/imliam) for the TALL stack preset package this is based on
-- [Ryan Chandler](https://github.com/ryangjchandler) for the TALL stack preset package this is based on and for the wonderful Tabler icons package
+- [Ryan Chandler](https://github.com/ryangjchandler) for the TALL stack preset package this is based on and for the wonderful Blade Tabler Icons package
 - [Tailwind UI](https://tailwindui.com) for the default authentication and pagination views
 - [All Contributors](../../contributors)
