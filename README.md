@@ -107,8 +107,8 @@ It includes a section for customising menu items, including a dropdown menu:
 This component has a prop that can be used to dynamically hide the header when scrolling:
 
 ```php
-<x-partials.headers.mobile-header-main :scroll-hide="true" /> // fixes the header to the top of the page
-<x-partials.headers.mobile-header-main :scroll-hide="false" /> // hides the header when scrolling down
+<x-partials.headers.mobile-header-main :scroll-hide="true" /> // hides the header when scrolling down
+<x-partials.headers.mobile-header-main :scroll-hide="false" /> // fixes the header to the top of the page
 ```
 
 ### Page Header
@@ -120,8 +120,8 @@ The second header component is the `mobile-header-page` component, which also al
 This component has the same prop as the main header, but also the ability to customise the title:
 
 ```php
-<x-partials.headers.mobile-header-main :scroll-hide="true" title="Settings" /> // fixes the header to the top of the page
-<x-partials.headers.mobile-header-main :scroll-hide="false" title="Settings" /> // hides the header when scrolling down
+<x-partials.headers.mobile-header-main :scroll-hide="true" title="Settings" /> // hides the header when scrolling down
+<x-partials.headers.mobile-header-main :scroll-hide="false" title="Settings" /> // fixes the header to the top of the page
 ```
 
 ## Toolbar
